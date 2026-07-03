@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Casana Marleny Marilú</title>
+    <style>
+        :root {
+            --rosa-pastel: rgb(255, 235, 240);
+            --negro-fuerte: rgb(10, 10, 10);
+            --blanco-tarjeta: rgb(255, 255, 255);
+        }
+        body { font-family: 'Courier New', Courier, monospace; background-color: var(--rosa-pastel); color: var(--negro-fuerte); margin: 0; padding: 20px; line-height: 1.5; }
+        .container { max-width: 900px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 40px; }
+        .section-box { background: var(--blanco-tarjeta); padding: 25px; border: 2px solid var(--negro-fuerte); border-radius: 10px; margin-bottom: 20px; }
+        
+        .proyectos-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 600px) { .proyectos-grid { grid-template-columns: 1fr; } }
+        
+        .contacto-link { color: var(--negro-fuerte); font-weight: bold; text-decoration: none; border-bottom: 1px solid var(--negro-fuerte); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Casana Marleny Marilú</h1>
+            <p>> Salud • Administración • Desarrollo de Software</p>
+        </header>
+
+        <section class="section-box">
+            <h2>Perfil Profesional</h2>
+            <p>Perfil polivalente con experiencia en gestión operativa administrativa, metodologías críticas de salud y formación técnica avanzada en el diseño y desarrollo de soluciones digitales.</p>
+            <p><strong>Inglés:</strong> Nivel A1</p>
+        </section>
+
+        <section class="section-box">
+            <h2>Formación</h2>
+            <p><strong>Tecnicatura en Desarrollo de Software:</strong> En Curso (Educación Superior Tecnológica).</p>
+            <p><strong>Enfermería Profesional:</strong> Título Terciario (Personal de Salud Graduado).</p>
+            <p><strong>Educación Secundaria:</strong> Completo.</p>
+        </section>
+
+        <section class="section-box">
+            <h2>Certificaciones</h2>
+            <ul>
+                <li>Certificación en Firma Digital e Identidad Tecnológica IT</li>
+                <li>Diplomatura en Acompañamiento Terapéutico (Universidad Juan Agustín Maza)</li>
+                <li>Diplomatura en Espectro Autista</li>
+                <li>Atención de Enfermería en Pacientes con Diálisis (Seminario de Especialización)</li>
+            </ul>
+        </section>
+
+        <section class="section-box">
+            <h2>Experiencia</h2>
+            <p><strong>Personal Administrativo:</strong> Responsable de procesos de gestión operativa, control documental sistemático, carga masiva de datos y atención al usuario bajo normativas institucionales.</p>
+        </section>
+
+        <section class="section-box">
+            <h2>Habilidades</h2>
+            <p><strong>Técnicas:</strong> Lógica de programación, Firma digital e identidad, Protocolos sanitarios, Sistemas de salud.</p>
+            <p><strong>Blandas:</strong> Empatía y ética clínica, Resolución de problemas, Gestión bajo presión, Trabajo en equipo.</p>
+            <p><strong>Transversales:</strong> Carga de datos / Admin, Pensamiento analítico, Organización documental, Atención al usuario.</p>
+        </section>
+
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-grid">
+            <section class="section-box">
+                <h3>Librería y Papelería</h3>
+                <p><strong>Roles:</strong> Diseño (Belén), Documentación (Marilú), Programación (Belén y Marilú).</p>
+                <a href="proyecto1-libreria/index.html" class="contacto-link">Ver Proyecto</a>
+            </section>
+
+            <section class="section-box">
+                <h3>Jardín Apapachos</h3>
+                <p><strong>Roles:</strong> Diseño (Belén), Documentación (Marilú), Programación (Belén y Marilú).</p>
+                <a href="proyecto2-jardin/index.html" class="contacto-link">Ver Proyecto</a>
+            </section>
+
+            <section class="section-box">
+                <h3>Gestión de Estudiantes</h3>
+                <p><strong>Roles:</strong> Diseño (Belén), Documentación (Marilú), Programación (Belén y Marilú).</p>
+                <a href="proyecto3-gestion/index.html" class="contacto-link">Ver Proyecto</a>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
